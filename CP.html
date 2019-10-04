@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Purchase Items</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="webStyle.css">
+</head>
+<body class="blocks">
+	<h1>CONFIRM PURCHASE</h1>
+	<div class="navigation">
+        <a href="index.html">HOME</a>
+        <a href="cart.html">CART</a>
+    </div>
+    <section>
+    	<h2>Choose store to collect from: </h2>
+    	<form id="choose1">
+    		<input type="radio" name="vala" id="dray">
+    		<label>1378 Sherwood Ave, Manenberg, CA 91123, SA</label><br>
+    		<input type="radio" name="vala" id="dray">
+    		<label>2019, 39 brakesberg honest Street, Northern Cape, South Africa.</label><br>
+    	</form>
+    	<h2>Delivery</h2>
+    	<form id="choose2">
+    		<input type="radio" name="vala" id="bike">
+    		<label>Bike</label><br>
+    		<input type="radio" name="vala" id="car">
+    		<label>Car</label>
+    	</form><br>
+    	<form>
+    		<input type="text" placeholder="First Name"><br>
+    		<input type="text" placeholder="Surname"><br>
+    		<input type="text" placeholder="Email"><br>
+    		<input type="text" placeholder="Home address"><br>
+            <br>
+    		<button onclick="purchase1()">CONFIRM PURCHASE</button>
+    	</form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ConfirmP.js"></script>
+
+</body>
+</html>

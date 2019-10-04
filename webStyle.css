@@ -1,0 +1,161 @@
+.navigation {
+    display: inline-block;
+    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    margin: 0 21px;
+    /*this makes the margin of a*/
+}
+
+.header {
+    padding: 80px;
+    /*this gives the padding of the header 80px*/
+    text-align: center;
+    /*this makes the text in the header align in the center*/
+    background: navy;
+    /*this changes the background colour of the header*/
+    color: black;
+    
+
+}
+
+#img {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-right: 25%;
+    /*this makes the borders of the images have a colour and changes the height and width of the images*/
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+#heading {
+    font-style: italic;
+    color: red;
+    display: inline;
+    /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: cyan;
+    text-align: center;
+}
+
+
+#add {
+    font-size: 30px;
+    /*this makes the font size of address bigger*/
+    font-style: italic;
+    /*this changes the font style of the address to italics*/
+    color: cyan;
+    /*this changes the colour of the address to cyan*/
+}
+
+.btn {
+    border-style: solid;
+    /*this makes the border style of the button be solid*/
+    border-color: cyan;
+    /*this chanegs the border colour of the button to cyan*/
+    padding: 5px;
+    /*this gives the button a padding away from the border*/
+    background-color: red;
+    /*this makes the background colour of the button red*/
+    float: left;
+    /*this makes the button move to the left*/
+}
+
+.list-group {
+    float: right;
+    /*this moves the list to right*/
+
+}
+
+.img-fluid {
+    border-radius: 25px;
+    /*this makes the borders of the images have a colour and changes the height and width of the images*/
+    padding: 20px;
+    /*this makes the padding of the image 20px from the border*/
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+    /*this makes the image transform when to a bigger image*/
+    -webkit-filter: grayscale(20%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+    /*this filters the image to greyscale*/
+}
+
+.img-fluid:hover {
+    transform: scale(1.5);
+    /*this makes the image bigger when the image is hovered over*/
+
+}
+
+.blocks{
+    background-image: url(https://million-wallpapers.com/wallpapers/2/98/531077069800988.jpg);
+    /*this changes the background image of the shipping details page*/
+    /*this makes the background image have no repeat of each other*/
+}
+
+.table {
+    color: indigo;
+    /*this changes the colour of the table*/
+    table-layout: auto;
+    /*this makes the table layout auto*/
+    width: 100px;
+    /*this adjust the width of the table*/
+}
+
+#back3 {
+    background-image: url(images/image13.jpg);
+    /*this changes the background image of the page*/
+    background-repeat: no-repeat;
+    /*this makes the image not repeat itslef*/
+}
+
+#got {
+    background-image: url(https://million-wallpapers.com/wallpapers/2/98/531077069800988.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.btn-add {
+    display: block;
+    margin: 10px 40px 0;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: blue;
+}
+
+.btn-add:hover {
+    background: yellow;
+}
+
+.back1 {
+    background-color: cyan;
+}
+
+.back2 {
+    background-color: lime;
+}
+
+.born{
+    background-image: url(https://million-wallpapers.com/wallpapers/2/98/531077069800988.jpg);
+}
+.chad{
+    background-image: url(https://million-wallpapers.com/wallpapers/2/98/531077069800988.jpg);
+}

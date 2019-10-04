@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--This is the link for the boostrap-->
+    <link rel="stylesheet" type="text/css" href="webStyle.css">
+    <!--This is the link for the stylesheet-->
+</head>
+
+<body id="got">
+    <div class="navigation">
+        <a href="index.html">HOME</a>
+        <a href="cart.html">CART</a>
+        <!--This links the catalogue page to the landing page-->
+    </div>
+    <div class="text-center">
+        <h1><b>ONLINE STORE</b></h1>
+        <!--This gives the heading of the store-->
+        <p><b>AVAILIBLE ITEMS</b></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <!--creates a grid for the items being sold in the shop which will work on small devices like cellphones-->
+                <img src="images/image1.webp" class="img-fluid img-thumbnail rounded"></a>
+                <!--Inserts a image and makes it responsive and an thumbnail-->
+                <p>ADIDAS ORIGINAL MEN'S BLACK TREFOIL T-SHIRT: Price R299.95
+                <br>    
+
+                </p>
+            
+                <button onclick="addtocart1()" class="btn-add">Add to cart</button>
+                <img src="images/imagee.jpg" class="img-fluid img-thumbnail rounded"></a>
+                <p>ADIDAS ORIGINALS: Price R1000.00
+                    <br>
+                    
+                </p>
+                <button onclick="addtocart2()" class="btn-add">Add to cart</button>
+            </div>
+            <!--Closes the grid-->
+            <div class="col-sm-4">
+                
+                <img src="images/image4.jpg" class="img-fluid img-thumbnail rounded"></a>
+                <!--Calls the image from the folder-->
+                <p>SABALO - core black/ftwr white/core black: Price R1099
+                    <!--Opening of a paragraph-->
+                    <br>
+                    
+                </p>
+                <button onclick="addtocart3()" class="btn-add">Add to cart</button>
+                <!--Closes the paragraph-->
+                <img src="images/image2.jpg" class="img-fluid img-thumbnail rounded"></a>
+                <p>Adidas Ultra-Boost: Price R1500.00
+                    <br>
+                    
+                </p>
+                <button onclick="addtocart4()" class="btn-add">Add to cart</button>
+            </div>
+            <div class="col-sm-4">
+                
+                <img src="images/image3.jpeg" class="img-fluid img-thumbnail rounded"></a>
+                <p>Adidas pharrellwilliams White Running Shoes: R1599.00
+                    <br>
+                    </p>
+                    <button onclick="addtocart5()" class="btn-add">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <a href="Landing page.html">Back to home</a>
+    <script type="text/javascript" src="catalogue.js"></script>
+    <!--Creates a link back to the homepage or home page-->
+</body>
+
+</html>
